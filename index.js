@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const jwt = require('jsonwebtoken');
 const routes = require('./routes/users');
 const swaggerUi = require('swagger-ui-express');
-const swaggerDocument = require('./doc/sw.json');
+const swaggerDocument = require('./doc/swagger.json');
 const User = require('./models/User');
 const dotenv = require('dotenv');
 dotenv.config();
